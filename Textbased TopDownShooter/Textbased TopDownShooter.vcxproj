@@ -18,6 +18,24 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="DEnemy.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PowerUp.h" />
+    <ClInclude Include="SEnemy.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="DEnemy.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SEnemy.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,24 +144,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="C:\Users\786 COMPUTERS\Downloads\RanaAbdulHannan_19710\Bullet.cpp" />
-    <ClCompile Include="C:\Users\786 COMPUTERS\Downloads\RanaAbdulHannan_19710\MainGame.cpp" />
-    <ClCompile Include="C:\Users\786 COMPUTERS\Downloads\RanaAbdulHannan_19710\DEnemy.cpp" />
-    <ClCompile Include="C:\Users\786 COMPUTERS\Downloads\RanaAbdulHannan_19710\LinkedList.cpp" />
-    <ClCompile Include="C:\Users\786 COMPUTERS\Downloads\RanaAbdulHannan_19710\Player.cpp" />
-    <ClCompile Include="C:\Users\786 COMPUTERS\Downloads\RanaAbdulHannan_19710\SEnemy.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="C:\Users\786 COMPUTERS\Downloads\RanaAbdulHannan_19710\Bullet.h" />
-    <ClInclude Include="C:\Users\786 COMPUTERS\Downloads\RanaAbdulHannan_19710\DEnemy.h" />
-    <ClInclude Include="C:\Users\786 COMPUTERS\Downloads\RanaAbdulHannan_19710\GameObject.h" />
-    <ClInclude Include="C:\Users\786 COMPUTERS\Downloads\RanaAbdulHannan_19710\LinkedList.h" />
-    <ClInclude Include="C:\Users\786 COMPUTERS\Downloads\RanaAbdulHannan_19710\Node.h" />
-    <ClInclude Include="C:\Users\786 COMPUTERS\Downloads\RanaAbdulHannan_19710\Player.h" />
-    <ClInclude Include="C:\Users\786 COMPUTERS\Downloads\RanaAbdulHannan_19710\PowerUp.h" />
-    <ClInclude Include="C:\Users\786 COMPUTERS\Downloads\RanaAbdulHannan_19710\SEnemy.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
