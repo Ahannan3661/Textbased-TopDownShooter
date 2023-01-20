@@ -6,3 +6,4 @@ Use arrow keys to move around and press space to shoot.
 There is a 30% chance to obtain a "powerup" for every kill.
 The power up lasts for a certain duration and it allows you to shoot "homing bullets".
 Homing bullets follow enemies once an enemy is in their "range".
+There are tow types of enemies. One that dodges up/down randomly when it notices a bullet approacing. Two an enemy that moves straight and fires straight projectiles.
